@@ -1,0 +1,19 @@
+﻿Verified seller:
+* Role: Initiates listing
+* What they need: Submission, listing status, clear requirements
+
+Marketplace reviewer:
+* Role: Reviews listing
+* What they need: Violation flags, complete product data, seller verification, eligibility checks
+
+Authenticity reviewer:
+* Role: Approves/Rejects luxury items
+* What they need: Authenticity request, product evidence, decision history
+
+Marketplace administrator:
+* Role: Monitors listings
+* What they need: Traceability, policy compliance, exception records
+
+Customer/Buyer:
+* Role: Purchases listed items
+* What they need: Clear listing information, authentic items, accurate product data, validated seller information

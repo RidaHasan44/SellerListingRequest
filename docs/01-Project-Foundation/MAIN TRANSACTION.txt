@@ -1,0 +1,33 @@
+﻿MAIN TRANSACTION
+Verified Seller requesting and posting a clothing item listing on an online marketplace.
+
+
+TRIGGER:
+A verified seller posts a new product listing for a clothing item on an online marketplace.
+
+
+INPUT: 
+Details of products (size, brand, quality, fabric type, images, product/listing ID, Price).
+Details of seller (seller ID, Name, Username, etc).
+Shipping Info (zip code, shipping service, weight, addresses).
+
+
+SYSTEM ACTION: 
+Authenticate/Verify Seller INFO and ID. 
+Validate input INFO. 
+Assign Listing ID. 
+
+
+OUTCOME: 
+Upload listing with all required INFO. 
+Upload/Maintain listing’s status (For sale, Sold out).
+Reject listing request due to restricted keywords.
+
+
+OFFICIAL RECORD:
+Product Details
+Product Price
+Timestamp
+Seller Account
+Seller ID
+Reviews

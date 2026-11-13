@@ -1,0 +1,29 @@
+﻿Team Charter
+1. Team Lead: Rida Hassan
+Establish project requirements, lay out team goals, and officiate changes.
+2. Communication Lead: Maheen Bashir 
+Create communication channels, keep team discussions on track, and lay out meeting itineraries.
+3. Coding Lead: Ethan Nguyen
+Assist with code troubleshooting, establish the coding etiquette, and lead during coding sessions.
+4. Github Lead: Syeda Ayesha Hashmi
+Keep team accountable for commitments, make sure the repository is up to date, educate on Git changes.
+5. Quality Assurance Lead: Manahil Ali
+Check the quality of comments are clear, make sure documentation is maintained, test builds for errors.
+
+
+Team Norms:
+Respond to team messages within 48 hours.
+Clearly document and label changes for team cohesion.
+Report changes made to any part of the project, committed or not.
+Meet up for in-person group work once a week.
+During the case of an emergency, communicate with the team within 24 hours.
+
+
+GIT Workflow:
+Pull repository before starting any new work on the project.
+Create branches for more large scale adjustments and feature changes.
+Communicate with team members about changes and peer review them before any commitments.
+
+
+Accountability:
+Team members will be able to contribute equal parts to the project, and support their opinions and changes during the defense of their code.

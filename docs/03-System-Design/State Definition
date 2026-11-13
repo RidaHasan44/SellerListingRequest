@@ -1,0 +1,49 @@
+STATE DEFINITIONS: Seller Marketplace Listing
+
+1. DRAFT
+Definition: The seller has started a listing, but it has not been submitted.
+Entry: Seller generates a new listing, or a rejected listing is recreated as a new Draft.
+Exit: Seller submits the listing (Draft -> Submitted).
+Notes: A listing cannot go directly from Draft to Active.
+
+2. SUBMITTED
+Definition: The seller has submitted the listing, and it has passed the initial form checks (required fields, minimum photos, limits, quantity).
+Entry: Seller submits listing (Draft -> Submitted).
+Exit: Listing enters evaluation (Submitted -> Under Review).
+
+3. UNDER REVIEW
+Definition: The listing is being checked by automated content checks and, when required, by an Admin Reviewer. Review covers seller verification status, price, restricted content, and policy compliance.
+Entry: Submitted listing, or a corrected listing resubmitted by the seller.
+Exit:
+  - Approved / all requirements met -> Active
+  - High value item -> Authentication Review
+  - Incomplete / invalid -> Resubmission Required
+  - Policy violation / restricted content -> Rejected
+
+4. RESUBMISSION REQUIRED
+Definition: The listing is missing information or has invalid information, and the seller must fix it.
+Entry: Incomplete / invalid listing found during review.
+Exit: Seller corrects required information and resubmits (Resubmission Required -> Under Review).
+
+5. AUTHENTICATION REVIEW
+Definition: A high-value item (over $500 or luxury / designer brand) is being checked for authenticity by the Authenticity Reviewer.
+Entry: Listing flagged as high value during review.
+Exit:
+  - Authenticated -> Active
+  - Not authenticated -> Rejected
+
+6. ACTIVE (For Sale)
+Definition: The listing is live and visible to buyers. The seller has a verified payout method, and shipping options match the seller's configured carriers.
+Entry: Approved from Under Review, or authenticated from Authentication Review.
+Exit: Item is sold, or the seller archives the listing (Active -> Sold / Listing Archived).
+Notes: An Active listing can only be edited, archived, or deleted. It cannot return to Draft.
+
+7. SOLD / LISTING ARCHIVED
+Definition: The listing is no longer for sale because the item sold or the seller archived it. The listing history is kept.
+Entry: Item sold or archived by the seller.
+Exit: None (final state).
+
+8. REJECTED
+Definition: The listing was denied because of a policy violation, restricted content, or failed authentication.
+Entry: Policy violation / restricted content from Under Review, or not authenticated from Authentication Review.
+Exit: None (final state). The seller must create a new Draft to try again. A rejected listing can never become Active directly.

@@ -1,0 +1,26 @@
+﻿USER STORIES & ACCEPTANCE 
+
+
+SELLER 
+As a seller, I want to create a listing so I can post my clothing item for sale on the marketplace 
+
+
+Acceptance: Given that the seller provided all required information then when the listing is submitted it should generate a unique listing ID
+
+
+
+
+MARKETPLACE ADMIN REVIEWER
+As a marketplace admin reviewer I want to ensure all submitted listings have met all requirements to be approved
+
+
+Acceptance: Given a pending listing when opened, the system should show all details and then the marketplace admin reviewer can reject or approve with a reason
+
+
+
+
+SELLER
+As a seller I want to be able to view the status of the listing that has been submitted to see if its been under review, approved, or rejected within reason
+
+
+Acceptance: Given an existing listing as the seller I should be able to view the submitted product listing with the correct and present status with all updates being shown

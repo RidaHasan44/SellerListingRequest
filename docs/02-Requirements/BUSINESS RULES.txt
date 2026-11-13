@@ -1,0 +1,27 @@
+﻿Eligibility & Authorization
+1. Any seller may submit a listing, but listings from unverified sellers are automatically routed to manual review before going live, while verified sellers' listings can be auto-approved.
+2. A seller must have a verified payment/payout method on file before a listing can move to "Active" status (separate from identity verification).
+
+
+Timing & Deadlines
+3. A submitted listing must be reviewed by the platform's automated content check within 24 hours, or it is automatically flagged for manual moderation.
+
+
+Approval & Routing
+4. Listings priced above $500 (or in restricted categories like designer/luxury goods) are automatically routed to manual moderation review before going live, while standard listings are auto-approved after passing automated checks. A listing needs at least one product image to qualify for the standard approval path.
+
+
+Limits & Thresholds
+5. A single listing must include at least one and no more than 10 photos, and its description must not exceed 1,000 characters.
+6. A seller ID must be exactly 6 digits.
+7. Seller first and last names must contain letters, spaces, and dashes only.
+
+
+Capacity & Availability
+8. A listing cannot be submitted with a quantity of zero available items.
+9. The seller must upload at least one product photo, or the listing will not be submitted.
+
+
+State & Sequence
+10. A listing may move from Draft → Submitted → Under Review → Active or Rejected, but cannot move directly from Draft to Active, and a Rejected listing cannot transition to Active without being resubmitted as a new Draft.
+11. When a listing is posted and “active” it can only be edited, archived, or deleted, not returned to draft.

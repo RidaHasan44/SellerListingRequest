@@ -1,0 +1,20 @@
+﻿Business Problem:
+A second-hand marketplace accepts listings to post new items for sale through a digital form with no requirements or a structured workflow. The company has trouble verifying the identity of the seller and authenticating the items posted since it relies on the sellers, leading to false listings and duplicates. Submissions that are incomplete or flagged can delay publishing and create more risks. This leads the system to be unorganized and hard to manage.
+
+
+Why it matters:
+* Inauthentic listings
+* Unverified sellers
+* Restricted content related to policy violations
+* Unclear listing status
+* Incomplete listings
+
+
+In scope:
+
+
+Submit a clothing item, capture product information, seller, and shipping details; validate minimum photos and required fields; check seller eligibility; route luxury-brands to authentication; flag restricted content; show listing status and preserve key history; focused on singular transaction.
+
+
+Out of scope:
+Payment processing or seller payouts, purchasing or selling of an item, customer refunds, shipping fulfillment, inventory management, seller account creation, or a full-fledged platform.

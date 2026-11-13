@@ -1,0 +1,39 @@
+﻿Functional Requirements 
+FR-1: The system shall allow a seller to generate and submit a new product listing for any clothing item they would like to sell
+
+
+FR-2: The system shall require the seller to provide information such as description, category of the clothing item, condition, a title for the item, price, brand, images of the item, and quantity before publishing the listing
+
+
+FR-3: The system shall record the seller name and seller ID
+
+
+FR-4: The system shall validate that the number of required product images are included before allowing the listing to be posted
+
+
+FR-5: The system shall assign a new listing ID and an transaction status after a product listing has been submitted 
+
+
+FR-6:  The system shall authorize if the submitted listing is following all required regulations and either approve or reject the listing with explanation
+
+
+FR-7: The system shall allow the seller to be able to view the status of the submitted product listing
+
+
+
+
+
+
+
+
+Quality / Nonfunctional Requirements
+NFR-1: The listing form shall have clear instructions on what is needed for each field that is required
+
+
+NFR-2: The form shall provide feedback if information is invalid or missing from required field
+
+
+NFR-3: The system shall capture the status changes including timestamps of the listing
+
+
+NFR-4: The system shall ensure that listing information is correct throughout the review process
